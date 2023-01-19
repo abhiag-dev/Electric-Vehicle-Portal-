@@ -1,0 +1,22 @@
+#table {
+    font-family: Arial,Georgia,monospace ;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #table td, #table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #table tr:nth-child(odd) {background-color: gray;}
+  
+  #table tr:hover:nth-child(2) {background-color: #197C92;}
+  #table tr:hover:nth-child(3){background-color: #45A7CC;}
+  #table tr:hover:nth-child(4){background-color: #144FA0}
+  #table tr:hover:nth-child(5){background-color: #706A93}
+  #table tr:hover:nth-child(6){background-color: #04828E;}
+  #table th {
+    background-color: black;
+    color: white;
+  }
