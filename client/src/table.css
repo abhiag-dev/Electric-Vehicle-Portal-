@@ -1,0 +1,27 @@
+table {
+    font-family: Arial, Georgia, monospace;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #45A7CC; /* Color for even rows */
+}
+
+table tr:nth-child(odd) {
+    background-color: gray; /* Color for odd rows */
+}
+
+table tr:hover {
+    background-color: #197C92; /* Color when row is hovered */
+}
+
+table th {
+    background-color: black;
+    color: white;
+}
