@@ -26,20 +26,6 @@ router.post("/api/vehicles", async (req, res) => {
   }
 });
 
-mongoose.connect("mongodb://localhost:27017/vehicle", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
-
-// Log connection events
-mongoose.connection.on("connected", () => {
-  console.log("Connected to MongoDB");
-});
-
-mongoose.connection.on("error", (error) => {
-  console.error("Error connecting to MongoDB:", error);
-});
-
 module.exports = {
   router,
 };
