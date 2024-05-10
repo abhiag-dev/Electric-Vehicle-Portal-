@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Electric-Vehicle-Portal-/static/css/main.28151387.css",
+    "main.js": "/Electric-Vehicle-Portal-/static/js/main.7cce0eb8.js",
+    "static/media/homeimage.jfif": "/Electric-Vehicle-Portal-/static/media/homeimage.c9fa047275f7a7e444dd.jfif",
+    "index.html": "/Electric-Vehicle-Portal-/index.html",
+    "main.28151387.css.map": "/Electric-Vehicle-Portal-/static/css/main.28151387.css.map",
+    "main.7cce0eb8.js.map": "/Electric-Vehicle-Portal-/static/js/main.7cce0eb8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28151387.css",
+    "static/js/main.7cce0eb8.js"
+  ]
+}
